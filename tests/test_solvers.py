@@ -2,7 +2,6 @@ import unittest
 import koopmanlib.solver as solver
 from koopmanlib.dictionary import PsiNN, DicRBF
 import numpy as np
-# from koopmanlib.target import DuffingOscillator
 
 class TestDictionary(unittest.TestCase):
     """Test Suite for ``solver.py``
