@@ -1,0 +1,6 @@
+examples/duffing_demo.ipynb
+examples/vdp_demo.ipynb
+src/koopmanlib/__pycache__
+examples/.ipynb_checkpoints
+src/koopman.egg-info
+requirements.txt
