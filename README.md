@@ -1,6 +1,10 @@
-# KoopmanDL
+# Koopman Operator Analysis with Deep Learning
 
-This is a work for the implementation of Koopman models and applications. Using data-driven approach extended dynamic mode decomposition (EDMD) with trainable dictionary, we develop an iterative algorithm to compute the information of Koopman model, such as eigenfunctions, eigenvalues and operator K. 
+This package implements the data-driven extended dynamic mode decomposition (EDMD) with trainable dictionary [1].
+This a generalization of the classical EDMD and is most effective for high dimensional or highly nonlinear problems
+where *a priori* choice of dictionary functions are difficult. 
+This package implements iterative algorithms to perform Koopman operator analysis, such as computing eigenfunctions, eigenvalues and modes,
+using a deep neural network based parameterization of the Koopman dictionary functions.
 
 ## Installation
 
@@ -69,7 +73,7 @@ Look at [examples](./examples).
 
 ## Reference
 
-[Li, Q., Dietrich, F., Bollt, E. M., & Kevrekidis, I. G. (2017). Extended dynamic mode decomposition with dictionary learning: A data-driven adaptive spectral decomposition of the Koopman operator. Chaos: An Interdisciplinary Journal of Nonlinear Science, 27(10), 103111.](https://aip-scitation-org.libproxy1.nus.edu.sg/doi/full/10.1063/1.4993854).
+[1] [Li, Q., Dietrich, F., Bollt, E. M., & Kevrekidis, I. G. (2017). Extended dynamic mode decomposition with dictionary learning: A data-driven adaptive spectral decomposition of the Koopman operator. Chaos: An Interdisciplinary Journal of Nonlinear Science, 27(10), 103111.](https://aip-scitation-org.libproxy1.nus.edu.sg/doi/full/10.1063/1.4993854).
 
 ## Contributors
 * GUO Yue (NUS)
