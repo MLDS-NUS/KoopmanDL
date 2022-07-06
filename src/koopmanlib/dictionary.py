@@ -22,8 +22,6 @@ class AbstractDictionary(object):
 class DicNN(Layer):
     """Trainable dictionaries
 
-    :param Layer: layer
-    :type Layer: layer
     """
 
     def __init__(self, layer_sizes=[64, 64], n_psi_train=22, **kwargs):
@@ -53,10 +51,6 @@ class DicNN(Layer):
 class PsiNN(Layer, AbstractDictionary):
     """Concatenate constant, data and trainable dictionaries together as [1, data, DicNN]
 
-    :param Layer: layer
-    :type Layer: layer
-    :param AbstractDictionary: trainable dictionaries
-    :type AbstractDictionary: layer
     """
 
     def __init__(

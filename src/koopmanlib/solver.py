@@ -124,7 +124,6 @@ class KoopmanDLSolver(KoopmanGeneralSolver):
                         trainable=False)
         psi_next = Layer_K(psi_x)
 
-        psi_y = self.dic_func(inputs_y)
         outputs = psi_next - psi_y
         model = Model(inputs=[inputs_x, inputs_y], outputs=outputs)
         return model

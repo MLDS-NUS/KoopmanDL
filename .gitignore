@@ -2,3 +2,4 @@ src/koopmanlib/__pycache__
 examples/.ipynb_checkpoints
 src/koopman.egg-info
 .DS_store
+tests/__pycache__

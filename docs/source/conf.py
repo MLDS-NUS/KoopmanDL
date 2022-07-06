@@ -10,16 +10,17 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('../../src'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'Learning Koopman Operator by EDMD with Trainable Dictionary'
-copyright = '2022, Guo Yue, Li Qianxiao'
-author = 'Guo Yue, Li Qianxiao'
+project = 'Koopman Operator Analysis with Deep Learning'
+copyright = 'MLDS-NUS'
+author = 'MLDS-NUS'
 
 
 # -- General configuration ---------------------------------------------------
